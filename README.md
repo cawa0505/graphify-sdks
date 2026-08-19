@@ -64,8 +64,7 @@ Each SDK can be compiled to a standalone native binary for deployment:
 
 ## Related Repositories
 
-- [GraphifySDK](https://github.com/cawa0505/graphify) — Graphify Core and SDK development workspace
-- [graphify](https://github.com/cawa0505/graphify) — Graphify Rust binary (Core Engine)
+- [graphify](https://github.com/cawa0505/graphify) — Graphify Core Rust binary (Core Engine)
 
 ## License
 
