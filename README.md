@@ -59,6 +59,7 @@ Each SDK can be compiled to a standalone native binary for deployment:
 
 - [Ecosystem Architecture](docs/architecture/ecosystem-architecture.md) — bidirectional SDK/plugin design, WASM vs IPC comparison
 - [Architecture & Distribution Spec](docs/architecture/graphify-2.0.0-architecture-spec.md) — GA compilation matrix, single-binary deployment
+- [Node.js/TypeScript Ecosystem Spec](docs/architecture/graphify-2.0.0-nodejs-spec.md) — Bun/SEA compilation, bidirectional CLI interop
 - [Rust API Reference](docs/api/graphify-rust-api.md) — full tool catalog, data types, protocol details
 
 ## Related Repositories
