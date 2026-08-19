@@ -53,6 +53,12 @@ Each SDK can be compiled to a standalone native binary for deployment:
 | PHP | static-php-cli + phpmicro / FrankenPHP | 5-15ms | ~15-25MB |
 | Python | Nuitka `--standalone --onefile` | 10-30ms | ~20-40MB |
 
+## Documentation
+
+- [Ecosystem Architecture](docs/architecture/ecosystem-architecture.md) — bidirectional SDK/plugin design, WASM vs IPC comparison
+- [Architecture & Distribution Spec](docs/architecture/graphify-2.0.0-architecture-spec.md) — GA compilation matrix, single-binary deployment
+- [Rust API Reference](docs/api/graphify-rust-api.md) — full tool catalog, data types, protocol details
+
 ## Related Repositories
 
 - [GraphifySDK](https://github.com/cawa0505/GraphifySDK) — Graphify Core and SDK development workspace
