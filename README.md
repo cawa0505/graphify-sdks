@@ -1,6 +1,6 @@
 # Graphify SDKs
 
-Official SDK family for [Graphify](https://github.com/cawa0505/GraphifySDK) — access
+Official SDK family for [Graphify](https://github.com/cawa0505/graphify) — access
 knowledge graph capabilities over the MCP (Model Context Protocol) via Stdio/JSON-RPC.
 
 ## Available SDKs
@@ -64,7 +64,7 @@ Each SDK can be compiled to a standalone native binary for deployment:
 
 ## Related Repositories
 
-- [GraphifySDK](https://github.com/cawa0505/GraphifySDK) — Graphify Core and SDK development workspace
+- [GraphifySDK](https://github.com/cawa0505/graphify) — Graphify Core and SDK development workspace
 - [graphify](https://github.com/cawa0505/graphify) — Graphify Rust binary (Core Engine)
 
 ## License
