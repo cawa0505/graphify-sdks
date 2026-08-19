@@ -7,6 +7,7 @@ knowledge graph capabilities over the MCP (Model Context Protocol) via Stdio/JSO
 
 | Language | Package | Repo | Status |
 |----------|---------|------|--------|
+| 🟢 **TypeScript** | `graphify-sdk` | [cawa0505/graphify-sdk-js](https://github.com/cawa0505/graphify-sdk-js) | ✅ Active |
 | 🐹 **Go** | `github.com/cawa0505/graphify-sdk-go` | [cawa0505/graphify-sdk-golang](https://github.com/cawa0505/graphify-sdk-golang) | ✅ Active |
 | 🐘 **PHP** | `graphify/sdk-php` | [cawa0505/graphify-sdk-php](https://github.com/cawa0505/graphify-sdk-php) | ✅ Active |
 | 🐍 **Python** | `graphify-sdk-python` | [cawa0505/graphify-sdk-python](https://github.com/cawa0505/graphify-sdk-python) | ✅ Active |
@@ -49,6 +50,7 @@ Each SDK can be compiled to a standalone native binary for deployment:
 
 | Language | Compilation | Startup | Size |
 |----------|------------|---------|------|
+| TypeScript | `tsc` + Bun Compile / SEA | < 10ms (Bun) | ~30-40MB |
 | Go | `CGO_ENABLED=0 go build -ldflags="-s -w"` | < 10ms | ~5-15MB |
 | PHP | static-php-cli + phpmicro / FrankenPHP | 5-15ms | ~15-25MB |
 | Python | Nuitka `--standalone --onefile` | 10-30ms | ~20-40MB |
